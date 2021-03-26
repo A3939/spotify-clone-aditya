@@ -1,0 +1,33 @@
+.login {
+    display: grid;
+    background-color: black;
+    height: 100vh;
+    place-items: center;
+  }
+  
+  .login > img {
+    height: 400px;
+    cursor: pointer;
+    
+  }
+  
+  .login > a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 99px;
+    font-weight: 600;
+    background-color: #1db954;
+    letter-spacing: 2px;
+  }
+
+  .login >p{
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .login >p span{
+    font-size: 18px;
+    color: red;
+    height: 20px;
+  }
